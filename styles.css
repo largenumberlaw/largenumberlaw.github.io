@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
     font-family: "Open Sans";
     max-width: 800px;
-    margin-left: 10px;
+    margin-left: 20px;
     color: #333;
 }
 
