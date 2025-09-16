@@ -27,16 +27,22 @@ const chart = new Chart(ctx, {
   },
   options: {
     responsive: true,
+    maintainAspectRatio: false, // allows canvas to fit container
+    layout: {
+        padding: 0 // remove extra padding
+    },
     scales: {
       x: {
         title: { display: true, text: "# of Shots Taken" },
-        beginAtZero: true
+        beginAtZero: true,
+        offset: true
       },
       y: {
-  title: { display: true, text: "Running % of Shots Made" },
-  min: -0.05,  
-  max: 1.05    // these settings are just to make the graph look nicer, should be 0 and 1 realistically
-}
+        title: { display: true, text: "Running % of Shots Made" },
+        min: 0,  
+        max: 1,
+        offset: true
+      }
     },
     // true percentage line
     plugins: {

@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+p, label {
+    font-size: 18px;
+}
 
-html {
-    font-family: "Nunito", sans-serif;
+select, button {
+    font-size: 14px;
 }
 
 footer {
-    font-size: 12px;
+    font-size: 14px;
     color: gray;
     margin-top: 10px;
+}
+
+div.chart-container {
+  width: 600px;
+  height: 400px;
+  margin-bottom: 10px;
 }
