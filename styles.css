@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: "Open Sans";
     max-width: 800px;
     margin-left: 10px;
     color: #333;
 }
 
 button {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: "Open Sans";
   padding: 8px 16px;
   margin-right: 8px;
   margin-bottom: 8px;
@@ -18,7 +19,7 @@ button {
 }
 
 button:hover {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: "Open Sans";
   padding: 8px 16px;
   margin-right: 8px;
   margin-bottom: 8px;
@@ -30,7 +31,7 @@ button:hover {
 }
 
 button:active {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: "Open Sans";
   padding: 8px 16px;
   margin-right: 8px;
   margin-bottom: 8px;
@@ -42,7 +43,7 @@ button:active {
 }
 
 select {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: "Open Sans";
   padding: 6px 6px;
   margin-right: 8px;
   margin-bottom: 8px;
