@@ -63,6 +63,7 @@ const chart = new Chart(ctx, {
   }
 });
 
+// add points to the graph
 function takeShot(){
     shotsTaken ++;
     const prob = shooters[currentShooter];
