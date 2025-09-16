@@ -12,21 +12,22 @@
 </head>
 <body>
   <h2>Law of Large Numbers</h2>
-  <p>This free throw simulation comes with 3 different players who have different hidden true percentages of free throws made. You can guess what their percentages are by taking free throws and then checking your guess using the "Reveal True Percentage" button.</p>
+  <p>This free throw simulation comes with 3 different players who have different hidden true percentages of free throws made. You can guess what their percentages are by taking free throws and then checking your guess using the "Reveal True Percentage" button. Switching shooters will reset the graph each time.</p>
   <label for="shooters">Select:</label>
   <select name="shooters" id="shooters">
     <option value="one">Shooter 1</option>
     <option value="two">Shooter 2</option>
     <option value="three">Shooter 3</option>
   </select>
-  <br>
+
   <canvas id="shotChart"></canvas>
-  <br>
+  
   <p id="statistics">Scoring statistics:</p>
   <button id="oneshot">Take a shot!</button>
   <button id="tenshot">Quickly take 10 shots!</button>
   <button id="reveal">Reveal true percentage</button>
   <script src="script.js"></script>
-  <footer>Made by Yulee Oh 2025 using chart.js.</footer>
+
+  <footer>2025. made by yulee oh with chart.js.</footer>
 </body>
 </html>
