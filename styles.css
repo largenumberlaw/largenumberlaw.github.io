@@ -1,9 +1,56 @@
-p, label {
-    font-size: 18px;
+body {
+    font-family: "Segoe UI";
+    max-width: 800px;
+    margin-left: 10px;
+    color: #333;
 }
 
-select, button {
-    font-size: 14px;
+button {
+  font-family: "Segoe UI";
+  padding: 8px 16px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #666;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+button:hover {
+  font-family: "Segoe UI";
+  padding: 8px 16px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #666;
+  background: rgb(237, 237, 237);
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+button:active {
+  font-family: "Segoe UI";
+  padding: 8px 16px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #666;
+  background: rgb(214, 214, 214);
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+select {
+  font-family: "Segoe UI";
+  padding: 6px 6px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #666;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
 }
 
 footer {
