@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="" />
   <link rel="icon" href="favicon.png">
-  <script
-src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
-</script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js-plugin-annotation"></script>
 </head>
 <body>
   <h2>Law of Large Numbers</h2>
-  <p>Applet description here.</p>
+  <p>This free throw simulation comes with 3 different players who have different hidden true percentages of free throws made. You can guess what their percentages are by taking free throws and then checking your guess using the "Reveal True Percentage" button.</p>
   <label for="shooters">Select:</label>
   <select name="shooters" id="shooters">
     <option value="one">Shooter 1</option>
@@ -20,6 +20,13 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
     <option value="three">Shooter 3</option>
   </select>
   <br>
-  <button>Take a shot!</button> <button>Quickly take 10 shots!</button>
+  <canvas id="shotChart"></canvas>
+  <br>
+  <p id="statistics">Scoring statistics:</p>
+  <button id="oneshot">Take a shot!</button>
+  <button id="tenshot">Quickly take 10 shots!</button>
+  <button id="reveal">Reveal true percentage</button>
+  <script src="script.js"></script>
+  <footer>Made by Yulee Oh 2025 using chart.js.</footer>
 </body>
 </html>
